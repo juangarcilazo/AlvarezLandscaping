@@ -1,0 +1,100 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif; /* Font style for the entire page */
+    line-height: 1.6; /* Line height for readability */
+    color: #333; /* Default text color */
+    background-color: #f4f4f4; /* Light gray background color */
+}
+
+/* Header Styles */
+header {
+    background: #4CAF50; /* Dark green background for the header */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding around the header */
+    text-align: center; /* Center text alignment */
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove padding */
+}
+
+nav ul li {
+    display: inline; /* Display list items in a line */
+    margin-right: 20px; /* Space between navigation links */
+}
+
+nav ul li a {
+    color: white; /* White color for navigation links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Section Styles */
+section {
+    padding: 20px; /* Padding within each section */
+    margin: 10px 0; /* Margin between sections */
+    background: white; /* White background for sections */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* Heading Styles */
+h2 {
+    color: #4CAF50; /* Dark green color for section headings */
+}
+
+/* Review Styles */
+.review {
+    margin: 10px 0; /* Margin between reviews */
+    border-left: 5px solid #4CAF50; /* Left border for emphasis */
+    padding-left: 10px; /* Padding to the left of the text */
+}
+
+/* Form Styles */
+form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack form elements vertically */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    margin: 10px 0; /* Margin between input fields */
+    padding: 10px; /* Padding inside input fields */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners for input fields */
+}
+
+/* Button Styles */
+button {
+    background-color: #4CAF50; /* Dark green button color */
+    color: white; /* White text color for buttons */
+    padding: 10px; /* Padding inside button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center; /* Center text in footer */
+    padding: 10px 0; /* Padding around footer */
+    background: #4CAF50; /* Dark green background for footer */
+    color: white; /* White text color in footer */
+    position: relative; /* Default position for footer */
+    bottom: 0; /* Align footer to the bottom */
+    width: 100%; /* Full width of the page */
+}

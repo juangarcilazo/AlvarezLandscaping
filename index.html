@@ -3,9 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LandscapingLEO</title>
+    <title>Alvarez Landscaping </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <h1>Welcome to Our Landscaping Company</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>About Us</h2>
+        <p>We provide top-notch landscaping services to enhance your outdoor spaces. Our dedicated team ensures quality and satisfaction.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Lawn Care</li>
+            <li>Garden Design</li>
+            <li>Tree Trimming</li>
+            <li>Landscape Installation</li>
+        </ul>
+    </section>
+
+    <section id="reviews">
+        <h2>Client Reviews</h2>
+        <div class="review">
+            <p>"Amazing service! My garden has never looked better!" - Jane D.</p>
+        </div>
+        <div class="review">
+            <p>"Professional and reliable. Highly recommend!" - John S.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; Alvarez Landscaping </p>
+    </footer>
 </body>
 </html>
